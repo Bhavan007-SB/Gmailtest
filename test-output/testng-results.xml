@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T10:09:22 IST" name="Suite" finished-at="2022-12-07T10:15:12 IST" duration-ms="349754">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T10:09:22 IST" name="Test Chrome" finished-at="2022-12-07T10:11:14 IST" duration-ms="112536">
+      <class name="com.qa.testscripts.GmailAccount">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.GmailAccount@1e683a3e]" started-at="2022-12-07T10:09:22 IST" name="setup" finished-at="2022-12-07T10:10:44 IST" duration-ms="82253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase_001_openAmazon()[pri:0, instance:com.qa.testscripts.GmailAccount@1e683a3e]" started-at="2022-12-07T10:10:44 IST" name="testcase_001_openAmazon" finished-at="2022-12-07T10:10:44 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_001_openAmazon -->
+        <test-method signature="testcase_002_clickGmailIcon()[pri:1, instance:com.qa.testscripts.GmailAccount@1e683a3e]" started-at="2022-12-07T10:10:44 IST" name="testcase_002_clickGmailIcon" finished-at="2022-12-07T10:11:06 IST" duration-ms="21840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_002_clickGmailIcon -->
+        <test-method signature="testcase_003_createAccount()[pri:2, instance:com.qa.testscripts.GmailAccount@1e683a3e]" started-at="2022-12-07T10:11:06 IST" name="testcase_003_createAccount" finished-at="2022-12-07T10:11:14 IST" duration-ms="7928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_003_createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.GmailAccount@1e683a3e]" started-at="2022-12-07T10:11:14 IST" name="tearDown" finished-at="2022-12-07T10:11:14 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.GmailAccount -->
+    </test> <!-- Test Chrome -->
+    <test started-at="2022-12-07T10:11:15 IST" name="Test firefox" finished-at="2022-12-07T10:13:12 IST" duration-ms="117195">
+      <class name="com.qa.testscripts.GmailAccount">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.GmailAccount@1a18644]" started-at="2022-12-07T10:11:15 IST" name="setup" finished-at="2022-12-07T10:12:39 IST" duration-ms="83783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase_001_openAmazon()[pri:0, instance:com.qa.testscripts.GmailAccount@1a18644]" started-at="2022-12-07T10:12:39 IST" name="testcase_001_openAmazon" finished-at="2022-12-07T10:12:39 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_001_openAmazon -->
+        <test-method signature="testcase_002_clickGmailIcon()[pri:1, instance:com.qa.testscripts.GmailAccount@1a18644]" started-at="2022-12-07T10:12:39 IST" name="testcase_002_clickGmailIcon" finished-at="2022-12-07T10:12:59 IST" duration-ms="20347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_002_clickGmailIcon -->
+        <test-method signature="testcase_003_createAccount()[pri:2, instance:com.qa.testscripts.GmailAccount@1a18644]" started-at="2022-12-07T10:12:59 IST" name="testcase_003_createAccount" finished-at="2022-12-07T10:13:10 IST" duration-ms="10687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_003_createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.GmailAccount@1a18644]" started-at="2022-12-07T10:13:10 IST" name="tearDown" finished-at="2022-12-07T10:13:12 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.GmailAccount -->
+    </test> <!-- Test firefox -->
+    <test started-at="2022-12-07T10:13:12 IST" name="Test edge" finished-at="2022-12-07T10:15:12 IST" duration-ms="119316">
+      <class name="com.qa.testscripts.GmailAccount">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.GmailAccount@4738a206]" started-at="2022-12-07T10:13:12 IST" name="setup" finished-at="2022-12-07T10:14:37 IST" duration-ms="84359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testcase_001_openAmazon()[pri:0, instance:com.qa.testscripts.GmailAccount@4738a206]" started-at="2022-12-07T10:14:37 IST" name="testcase_001_openAmazon" finished-at="2022-12-07T10:14:37 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_001_openAmazon -->
+        <test-method signature="testcase_002_clickGmailIcon()[pri:1, instance:com.qa.testscripts.GmailAccount@4738a206]" started-at="2022-12-07T10:14:37 IST" name="testcase_002_clickGmailIcon" finished-at="2022-12-07T10:15:04 IST" duration-ms="27386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_002_clickGmailIcon -->
+        <test-method signature="testcase_003_createAccount()[pri:2, instance:com.qa.testscripts.GmailAccount@4738a206]" started-at="2022-12-07T10:15:04 IST" name="testcase_003_createAccount" finished-at="2022-12-07T10:15:11 IST" duration-ms="7254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_003_createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.GmailAccount@4738a206]" started-at="2022-12-07T10:15:11 IST" name="tearDown" finished-at="2022-12-07T10:15:12 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.GmailAccount -->
+    </test> <!-- Test edge -->
+  </suite> <!-- Suite -->
+</testng-results>
